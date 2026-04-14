@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityEngine.AudioModule" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.TextCoreFontEngineModule" />
+  </ItemGroup>
+</Project>
